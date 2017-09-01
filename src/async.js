@@ -20,7 +20,7 @@ const asyncFunc = async (event, context, callback) => {
   const response = {
     statusCode: 200,
     body: JSON.stringify({
-      message: 'Hello AWS Lambda',
+      message: 'Hello AWS async lambda',
       input: event,
       test: { a, b },
     }),
