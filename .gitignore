@@ -3,6 +3,7 @@ node_modules
 .idea
 jspm_packages
 lib
+.nyc_output
 
 # Serverless directories
 .serverless
