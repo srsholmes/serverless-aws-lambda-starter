@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Get started with serverless and AWS lambda",
   "scripts": {
+    "start": "npm run watch & npm run offline",
     "watch": "babel --watch=./src --out-dir=./lib",
     "build": "babel src -d lib",
     "offline": "serverless offline start",
