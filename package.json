@@ -1,0 +1,22 @@
+{
+  "name": "serverless-aws-lambda-starter",
+  "version": "0.0.1",
+  "description": "Get started with serverless and AWS lambda",
+  "scripts": {
+    "watch": "babel --watch=./src --out-dir=./lib",
+    "build": "babel src -d lib",
+    "offline": "serverless offline start"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-env": "^1.1.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "tape": "^4.6.0",
+    "serverless-offline": "^3.15.3"
+  },
+  "author": "Simon Holmes",
+  "license": "ISC"
+}

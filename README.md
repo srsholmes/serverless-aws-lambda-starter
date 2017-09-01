@@ -1,2 +1,2 @@
 # serverless-aws-lambda-starter
-Aws lamdba starter with babel
+AWS lamdba starter with babel. Why use webpack? 
